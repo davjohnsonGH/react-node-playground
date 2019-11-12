@@ -8,9 +8,9 @@ import {
   } from "react-router-dom";
 
 // views 
-import Main from "../../Views/Main";
-import Section from "../../Views/Section";
-import Blog from "../../Views/Blog";    
+import Main from "../../Views/main/Main";
+import Section from "../../Views/section/Section";
+import Blog from "../../Views/blog/Blog";    
 
 const HorizontalNav = (props) => {
 

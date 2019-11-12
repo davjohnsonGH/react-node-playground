@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { render } from "react-dom";
 import "@babel/polyfill";
 //helpers
-import { fetchData } from "./common/common";
-import { urls } from "./common/config";
+import { fetchData } from "./common/utils/common";
+import { urls } from "./common/utils/config";
 // components 
 import HorizontalNav from "./common/horizontalnav/HorizontalNav";
 
